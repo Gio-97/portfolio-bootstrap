@@ -13,8 +13,14 @@
   }
 }
 
+.Hero-pic{
+  max-width: 250px;
+  min-height: 250px;
+  border-radius: 50%;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #4267B2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +32,56 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.About-Me{
+  background-color: #4267B2;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Tech{
+  background-color: #4267B2;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.Projects{
+  background-color: #4267B2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.Contact{
+  background-color: #4267B2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.form-group{
+  margin: 50px;
 }
 
 @keyframes App-logo-spin {
