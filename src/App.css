@@ -36,7 +36,7 @@
 
 .About-Me{
   background-color: #4267B2;
-  min-height: 60vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +47,7 @@
 
 .Tech{
   background-color: #4267B2;
-  min-height: 60vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,16 +57,40 @@
 
 }
 
+
+.tech-img{
+  margin-right: 120px;
+  margin-top: 50px;
+}
+
 .Projects{
   background-color: #4267B2;
-  min-height: 100vh;
-  display: flex;
+  min-height: 75vh;
+  display: auto;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
   font-size: calc(10px + 2vmin);
   color: white;
 
+}
+
+.project-img{
+  /* display:inline-block;
+  padding: 10px;
+  padding-left: 20px; */
+  padding: 10px;
+  max-width: 440px;
+  margin-right: 100px;
+}
+.project-img2{
+  display:inline-block;
+  padding: 10px;
+  padding-left: 30px;
+  /* float: right; */
+  padding: 10px;
+  max-width: 440px;
+  margin-left: 100px;
 }
 
 .Contact{
